@@ -1,0 +1,29 @@
+{
+  "name": "webscraper",
+  "version": "1.0.0",
+  "description": "Scrape the webpage and fetch all URL's and then navigate till last page",
+  "main": "index.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdevarajeee/WebScraper.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "webscraper"
+  ],
+  "author": "Devaraj Subramani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdevarajeee/WebScraper/issues"
+  },
+  "homepage": "https://github.com/sdevarajeee/WebScraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2",
+    "url-parse": "^1.4.7"
+  }
+}
